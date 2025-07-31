@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "script.js",
   "scripts": {
-    "build": "babel ./script.js -d lib"
+    "build": "babel ./script.js -d lib --source-maps"
   },
   "author": "",
   "license": "ISC",
@@ -13,11 +13,6 @@
     "@babel/core": "^7.28.0",
     "@babel/preset-env": "^7.28.0",
     "@babel/preset-react": "^7.27.1"
-  },
-  "babel": {
-    "presets": [
-      "@babel/preset-env",
-      "@babel/preset-react"
-    ]
   }
+
 }
