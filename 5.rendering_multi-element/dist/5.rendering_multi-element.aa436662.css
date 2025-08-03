@@ -1,0 +1,36 @@
+.card {
+  border: 2px solid #000;
+  border-radius: 8px;
+  max-width: 300px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 300px;
+  height: 200px;
+}
+
+img {
+  width: full;
+}
+
+.card h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.card p {
+  margin: 0 0 8px;
+  font-size: 20px;
+}
+
+.card-content {
+  padding: 0 12px;
+}
+
+.container2 {
+  flex-wrap: wrap;
+  gap: 10px;
+  display: flex;
+}
+/*# sourceMappingURL=5.rendering_multi-element.aa436662.css.map */
