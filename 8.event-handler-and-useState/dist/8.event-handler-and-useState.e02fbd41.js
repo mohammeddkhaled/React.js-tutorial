@@ -18611,8 +18611,12 @@ const AppleBasket = (props)=>{
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                    children: basketName
-                }, void 0, false, {
+                    children: [
+                        basketName,
+                        appleCount === 10 && '(full)',
+                        appleCount === 0 && '(empty)'
+                    ]
+                }, void 0, true, {
                     fileName: "component/AppleBasket.js",
                     lineNumber: 7,
                     columnNumber: 16
