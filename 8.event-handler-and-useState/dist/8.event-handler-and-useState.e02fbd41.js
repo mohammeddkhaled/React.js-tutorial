@@ -160,11 +160,11 @@
       });
     }
   }
-})({"kxwl6":[function(require,module,exports,__globalThis) {
+})({"h2Pel":[function(require,module,exports,__globalThis) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
-var HMR_SERVER_PORT = 1234;
+var HMR_SERVER_PORT = 65170;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "439701173a9199ea";
 var HMR_USE_SSE = false;
@@ -16103,25 +16103,16 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _mainContainer = require("./component/MainContainer");
 var _mainContainerDefault = parcelHelpers.interopDefault(_mainContainer);
-var _useState = require("/component/UseState");
-var _useStateDefault = parcelHelpers.interopDefault(_useState);
 const App = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _useStateDefault.default), {}, void 0, false, {
-                fileName: "App.js",
-                lineNumber: 8,
-                columnNumber: 13
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _mainContainerDefault.default), {}, void 0, false, {
-                fileName: "App.js",
-                lineNumber: 9,
-                columnNumber: 13
-            }, undefined)
-        ]
-    }, void 0, true, {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _mainContainerDefault.default), {}, void 0, false, {
+            fileName: "App.js",
+            lineNumber: 7,
+            columnNumber: 13
+        }, undefined)
+    }, void 0, false, {
         fileName: "App.js",
-        lineNumber: 7,
+        lineNumber: 6,
         columnNumber: 9
     }, undefined);
 };
@@ -16135,7 +16126,7 @@ $RefreshReg$(_c, "App");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","./component/MainContainer":"aZN2q","/component/UseState":"kP1xp","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"aZN2q":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","./component/MainContainer":"aZN2q","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"aZN2q":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$f806 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$f806.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
@@ -18643,73 +18634,6 @@ $RefreshReg$(_c, "AppleBasket");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"4yh64":[function() {},{}],"cbgGU":[function() {},{}],"cKAME":[function() {},{}],"kP1xp":[function(require,module,exports,__globalThis) {
-var $parcel$ReactRefreshHelpers$8d09 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-$parcel$ReactRefreshHelpers$8d09.init();
-var prevRefreshReg = globalThis.$RefreshReg$;
-var prevRefreshSig = globalThis.$RefreshSig$;
-$parcel$ReactRefreshHelpers$8d09.prelude(module);
-
-try {
-// import { useState } from "react"
-// const UseState = () => {
-//     const useStateCount = useState(10)
-//     return (
-//         <div>
-//             <h1>{useStateCount [0]}</h1>
-//             <button
-//             onClick={()=>{useStateCount[1](useStateCount [0]+1)}}
-//             >increase count</button>
-//         </div>
-//     )
-// }
-// export default UseState
-/////////////////////////////////////////good way /////////////////////////
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _s = $RefreshSig$();
-const UseState = ()=>{
-    _s();
-    const [count, setCount] = (0, _react.useState)(0);
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                children: count
-            }, void 0, false, {
-                fileName: "component/UseState.js",
-                lineNumber: 29,
-                columnNumber: 13
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                onClick: ()=>{
-                    setCount(count + 1);
-                },
-                children: "increase count"
-            }, void 0, false, {
-                fileName: "component/UseState.js",
-                lineNumber: 30,
-                columnNumber: 13
-            }, undefined)
-        ]
-    }, void 0, true, {
-        fileName: "component/UseState.js",
-        lineNumber: 28,
-        columnNumber: 9
-    }, undefined);
-};
-_s(UseState, "0y9ihJAcKCc4PLtrSDVu6q2+erM=");
-_c = UseState;
-exports.default = UseState;
-var _c;
-$RefreshReg$(_c, "UseState");
-
-  $parcel$ReactRefreshHelpers$8d09.postlude(module);
-} finally {
-  globalThis.$RefreshReg$ = prevRefreshReg;
-  globalThis.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}]},["kxwl6","jOXmm"], "jOXmm", "parcelRequireec54", {}, null, null, "http://localhost:1234")
+},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"4yh64":[function() {},{}],"cbgGU":[function() {},{}],"cKAME":[function() {},{}]},["h2Pel","jOXmm"], "jOXmm", "parcelRequireec54", {}, null, null, "http://localhost:65170")
 
 //# sourceMappingURL=8.event-handler-and-useState.e02fbd41.js.map

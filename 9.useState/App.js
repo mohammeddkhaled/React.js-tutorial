@@ -20,7 +20,7 @@
 /////////////////////////////////////////good way /////////////////////////
 import { useState } from "react"
 
-const UseState = () => {
+const App = () => {
     const [ count, setCount ] = useState(0)
 
 
@@ -34,4 +34,4 @@ const UseState = () => {
         </div>
     )
 }
-export default UseState
+export default App
